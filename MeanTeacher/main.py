@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
     for i in range(0,1):
         args.alpha = args.alpha+0.01
-        for i in range(0,4):
+        for i in range(0,1):
             train_supervised(args)
             train_MeanTeacher(args)
     print('finished')
